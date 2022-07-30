@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/assets/favicon-32x32.png"
+    />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/css/main.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="card rating card--submit">
+        <img src="/assets/icon-star.svg" alt="" class="card__img" />
+        <h1 class="card__title">How did we do?</h1>
+        <p class="card__desc">
+          Please let us know how we did with your support request. All feedback
+          is appreciated to help us improve our offering!
+        </p>
+        <ul role="list" class="card__list">
+          <li class="card__listitem" tabindex="1">1</li>
+          <li class="card__listitem" tabindex="2">2</li>
+          <li class="card__listitem" tabindex="3">3</li>
+          <li class="card__listitem" tabindex="4">4</li>
+          <li class="card__listitem" tabindex="5">5</li>
+        </ul>
+        <button class="card__btn">Submit</button>
+      </div>
+      <div class="card rated">
+        <img src="/assets/illustration-thank-you.svg" alt="" class="card__img">
+        <p class="card__feedback">You selected <span class="card__feed__response"></span> out of 5</p>
+        <h1 class="card__title">Thank you!</h1>
+        <p class="card__desc">We appreciate you taking the time to give a rating. If
+    you ever need more support, don&apos;t hesitate to get in touch!</p>
+      </div>
+    </main>
+  </body>
+</html>
