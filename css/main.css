@@ -157,6 +157,7 @@ main {
 }
 .card.rating .card__listitem {
   cursor: pointer;
+  list-style: none;
   padding: 1em;
   position: relative;
   color: var(--clr-neutral-300);
